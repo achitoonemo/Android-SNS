@@ -1,0 +1,132 @@
+package com.example.database;
+
+ public class ItemDetail{
+	
+	private String Id;
+	private String name;
+	private String city;
+	private String address;
+	private String phone;
+	private String mail;
+	private int imageNumber;
+	private String about;
+	private String price;
+	private String link;
+	private String location;
+	private String hotelreview;
+	private String bookmark;
+	private String hotelwish;
+
+
+	public String getName() {
+		return name;
+	 }
+	 
+	 public void setName(String name){
+		 this.name = name;
+	 }
+	 
+	 public String getCity() {
+		return city;
+	 }
+	 
+	 public void setCity(String city){
+		 this.city=city;
+	 }
+	 
+	 public String getAddress() {
+		return address;
+	 }
+		 
+	 public void setAddress(String address){
+		 this.address=address;
+	}
+	 
+	 public String getPhone() {
+		return phone;
+	 }
+	 
+	 public void setPhone(String Phone){
+		 this.phone=Phone;
+	 }
+	 
+	 public String getmail() {
+		return mail;
+	 }
+	 
+	 public void setmail(String mail){
+		 this.mail=mail;
+	 }
+	 
+	 public int getImageNumber() {
+		return imageNumber;
+	 }
+	 
+	 public void setImageNumber(int imageNumber){
+		 this.imageNumber=imageNumber;
+	 }
+
+	 public String getAbout() {
+		return about;
+	 }
+	 
+	 public void setAbout(String about){
+		 this.about=about;
+	 }
+
+	 public String getId() {
+			return Id;
+	 }
+		 
+	public void setId(String Id){
+			 this.Id=Id;
+	 }
+
+	public String getprice() {
+		return price;
+	}
+	 
+	public void setprice(String price){
+		 this.price=price;
+	}
+	 
+	public String getlink() {
+		return link;
+	}
+	 
+	public void setlink(String link){
+		 this.link=link;
+	}
+	
+	public String getlocation() {
+		return location;
+	}
+	 
+	public void setlocation(String location){
+		 this.location=location;
+	}
+
+	public String getHotelreview() {
+		return hotelreview;
+	}
+
+	public void setHotelreview(String hotelreview) {
+		this.hotelreview = hotelreview;
+	}
+
+	public String getBookmark() {
+		return bookmark;
+	}
+
+	public void setBookmark(String bookmark) {
+		this.bookmark = bookmark;
+	}
+
+	public String getHotelwish() {
+		return hotelwish;
+	}
+
+	public void setHotelwish(String hotelwish) {
+		this.hotelwish = hotelwish;
+	}
+ }
